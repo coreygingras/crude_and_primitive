@@ -1,8 +1,12 @@
 <form action="/form" method="post">
+  <font face = "Georgia">
   Please let us know how we can help!  We always try to respond to inquiries within 24 hours.<br><br>	
   First Name <input type="First Name" name="first_name">
   Last Name <input type="Last Name" name="last_name"><br><br>
-  Email Address <input type="Email Address" name="email_address"><br><br>
-  Message <input type="text" name="message"><br><br>
-  <a href = "http://localhost:9393/form/submitted"><input type="submit">
+  Email Address <input type="Email Address" name="email_address" required><br><br>
+  Message <textarea name="message" rows="8" required></textarea><br><br>
+  <input type="submit">
 </form>
+<center>
+<a href = '/'> Return to Homepage </a>
+</center>
